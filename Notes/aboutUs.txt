@@ -1,0 +1,19 @@
+Get to Know me
+About Me
+Who am i? 
+
+As an adept software developer, I bring a comprehensive skill set that includes proficiency in HTML, CSS, JavaScript, Python, Java, .NET, SQL, and AWS, among other technologies. My expertise spans the full spectrum of web and software development, enabling me to craft robust, scalable, and efficient solutions.
+
+I excel in front-end development with a keen eye for design and user experience, demonstrated through my adeptness in HTML, CSS, and JavaScript. These skills enable me to create visually appealing and intuitive interfaces that engage and retain users. My proficiency in Python and Java enhances my ability to develop complex backend systems that are both reliable and high-performing.
+
+With a solid foundation in .NET framework, I have developed a range of applications from web to mobile, focusing on creating seamless and integrated experiences. My experience with SQL databases underpins my ability to manage and manipulate large datasets, ensuring data integrity and performance.
+
+In the realm of cloud computing, my skills in AWS allow me to deploy and manage scalable, secure, and cost-effective solutions. This expertise is crucial in today's cloud-centric development environments, enabling me to leverage the full potential of cloud resources.
+
+Throughout my career, I have continuously expanded my knowledge base, staying abreast of the latest trends and technologies in software development. This relentless pursuit of knowledge ensures that the solutions I develop are not only relevant but also forward-thinking, aligning with both current and future industry standards.
+Download CV
+
+Name:Subash Rai
+Age: 24
+Email: subashrai0246@gmail.com
+Location: Sydeny, Australia

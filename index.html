@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Subash Rai</span></h2>
+            <h3>I'm a Software Developer.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/myPic2.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b>Subash Rai</b>, an Aspiring Software Developer</h2>
+                <p>As an adept software developer, I bring a comprehensive skill set that includes proficiency in HTML, CSS, JavaScript, Python, Java, .NET, SQL, and AWS, among other technologies. My expertise spans the full spectrum of web and mobile app development, enabling me to craft robust, scalable, and efficient solutions.</p><br>
+                <p>I excel in front-end development with a keen eye for design and user experience, demonstrated through my adeptness in HTML, CSS, and JavaScript. These skills enable me to create visually appealing and intuitive interfaces that engage and retain users. My proficiency in Python and Java enhances my ability to develop complex backend systems that are both reliable and high-performing.</p><br>
+                <p>With a solid foundation in .NET framework, I have developed a range of applications from web to mobile, focusing on creating seamless and integrated experiences. My experience with SQL databases underpins my ability to manage and manipulate large datasets, ensuring data integrity and performance.</p><br>
+                <p>In the realm of cloud computing, my skills in AWS allow me to deploy and manage scalable, secure, and cost-effective solutions. This expertise is crucial in today's cloud-centric development environments, enabling me to leverage the full potential of cloud resources.</p><br>
+                <p>Throughout my career, I have continuously expanded my knowledge base, staying abreast of the latest trends and technologies in software development. This relentless pursuit of knowledge ensures that the solutions I develop are not only relevant but also forward-thinking, aligning with both current and future industry standards.</p>
+                <div class="heading bottom">
+                    <a href="images/resume.docx" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Subash Rai<br>
+                        <b>Age:</b> 24
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> subashrai02468@gmail.com.com<br>
+                        <b>Location:</b> Sydney, Australia
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Services Layout in HTML -->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>My Knowledge Services On</h2>
+            <p>Services i can Offer to my Clients, Workplace, Collaborators</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-css3 fa-4x"></i>
+                <h3>Web Design & Development</h3> 
+                <p>Designing and developing websites, ranging from simple static pages to complex web applications. This includes front-end development (user interface and experience) and back-end development (server, application, and database).</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-mobile fa-4x"></i>
+                <h3> Cross-Platform Mobile App Development</h3>
+                <p>Developing applications for mobile devices, both for Android and iOS platforms. This includes cross-platform apps in xamarin or .net maui.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-database fa-4x"></i>
+                <h3>Database Design and Development</h3>
+                <p>Setting up, optimizing, and managing databases. This service is crucial for applications that handle significant amounts of data and require efficient data retrieval and storage.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-cloud fa-4x"></i>
+                <h3>AWS Cloud Services</h3>
+                <p>Implementing and managing AWS cloud-based solutions, including cloud application development, migration of existing services to the cloud, and cloud infrastructure management.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-code fa-4x"></i>
+                <h3>API Development and Integration</h3>
+                <p>Creating APIs (Application Programming Interfaces) to enable different software systems to communicate with each other, as well as integrating third-party APIs into existing applications.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-cart-arrow-down fa-4x"></i>
+                <h3>E-commerce Solutions</h3>
+                <p>Developing online stores and e-commerce platforms, including shopping cart integration, payment gateway integration, and inventory management.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Work Layout in HTML -->
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>My Latest Work</h2>
+            <p>Showcasing some of my <b>Github Works</b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://github.com/subashrai02468/Omnifood" target="_blank">
+                    <img src="images/OmnifoodWebsitePhoto.JPG" alt="">
+                    <p>Omnifood Website</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://github.com/subashrai02468/QuestionAnsweringBot" target="_blank">
+                    <img src="images/QuestionAnsweringWebsite.JPG" alt="">
+                    <p>Question Answering Web App</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://github.com/subashrai02468/ReminderApp" target="_blank">
+                    <img src="images/ReminderApp.JPG" alt="">
+                    <p>Reminder App (Cross-Platform App)</p>
+                </a>
+            </div>
+            <div class="heading">
+                <a href="https://github.com/subashrai02468?tab=repositories" target="_blank" class="btn" style="color:#fff;">View All My Works</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Testimonial Layout in HTML -->
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Testimonial</h2>
+            <p>What my clients & collaborators think about me</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Working with Subash was an extraordinary experience. His expertise in software development, particularly in web and mobile app development, truly stands out. He not only delivered our project on time but also exceeded our expectations in terms of quality and functionality. His attention to detail and commitment to understanding our needs made a significant difference. The end product was not just technically sound but also user-friendly and aesthetically pleasing. I highly recommend Subash for anyone seeking top-notch software development services.</p>
+                <h3>Rajesh Sunuwar<br>Github Collaborator</h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Subash is a remarkable software developer whose proficiency in modern technologies and programming languages has immensely benefited our projects. His ability to tackle complex problems with innovative solutions has been invaluable. What sets Subash apart is his dedication to maintaining clear communication throughout the development process, ensuring we were always informed and involved. The outcome of his work has consistently been of the highest standard, contributing greatly to the success of our initiatives. I strongly endorse Subash for any software development needs.</p><h3>Eksha Madden<br>Masters Project, Victoria University</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytime</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for work or collaboration, if the right project<br> comes along, Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Sydney, Australia,<br>New South Wales</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>+61 412518140</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>subashrai02468@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/subashrai02468" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://github.com/subashrai02468" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2023, subash-portfolio-website.netlify.app , Allrights reserved</p>
+    </footer>
+</body>
+</html>
